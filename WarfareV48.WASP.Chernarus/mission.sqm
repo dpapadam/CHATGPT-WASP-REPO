@@ -4134,7 +4134,7 @@ class Mission
 					type="HeadlessClient_F";
 					leader=1;
 					skill=1;
-					init="this setVariable ['hc_slot0', 'hc0']; this allowdamage false; this hideobject true;";
+					init="this setVariable ['hc_slot0', 'hc0']; this allowdamage false; this hideobject true; this setVariable ['sideJoined', civilian]; this setSide civilian;";
 					description="hc0";
 				};
 			};
@@ -4835,7 +4835,7 @@ class Mission
 					type="HeadlessClient_F";
 					leader=1;
 					skill=1;
-					init="this setVariable ['hc_slot1', 'hc1']; this allowdamage false; this hideobject true;";
+					init="this setVariable ['hc_slot1', 'hc1']; this allowdamage false; this hideobject true; this setVariable ['sideJoined', civilian]; this setSide civilian;";
 					description="hc1";
 				};
 			};
@@ -4858,7 +4858,7 @@ class Mission
 					type="HeadlessClient_F";
 					leader=1;
 					skill=1;
-					init="this setVariable ['hc_slot2', 'hc2']; this allowdamage false; this hideobject true;";
+					init="this setVariable ['hc_slot2', 'hc2']; this allowdamage false; this hideobject true; this setVariable ['sideJoined', civilian]; this setSide civilian;";
 					description="hc2";
 				};
 			};
